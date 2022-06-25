@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="nav-container">
+                <h1>DojoWeather</h1>
+                <label id="burbank">Burbank</label>
+                <label id="chicago">Chicago</label>
+                <label id="dallas">Dallas</label>
+            </div>
+        </div>
+        <div class="page-body">
+            <div class="top-row">
+                <h2>San Jose</h2>
+                <div class="temp-container">
+                    <label for="temp">show temperature in </label>
+                    <select name="temp" id="temp">
+                        <option value="far">°F</option>
+                        <option value="cel">°C</option>
+                    </select>
+                </div>
+            </div>
+            <div class="bottom-row">
+                <div class="weather-day">
+                    <h3>Today</h3>
+                    <img src="./assets/some_rain.png" alt="rain icon">
+                    <p>some rain</p>
+                    <label class="temp-day"><span class="degree">24</span>°</lable>
+                    <label class="temp-night">18°</label>
+                </div>
+                <div class="tomorrow">
+                    <div class="weather-day">
+                        <h3>Tomorrow</h3>
+                        <img src="./assets/some_sun.png" alt="sun icon">
+                        <p>some sun</p>
+                        <label class="temp-day">27°</lable>
+                        <label class="temp-night">19°</label>
+                    </div>
+                </div>
+                <div class="friday">
+                    <div class="weather-day">
+                        <h3>Friday</h3>
+                        <img src="./assets/some_clouds.png" alt="cloud icon">
+                        <p>some clouds</p>
+                        <label class="temp-day">21°</lable>
+                        <label class="temp-night">16°</label>
+                    </div>
+                </div>
+                <div class="saturday">
+                    <div class="weather-day">
+                        <h3>Saturday</h3>
+                        <img src="./assets/some_sun.png" alt="sun icon">
+                        <p>some sun</p>
+                        <label class="temp-day">26°</lable>
+                        <label class="temp-night">21°</label>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie">
+                <img src="./assets/cookie.png" alt="cookie image">
+                <div class="cookie-text">
+                    <h4>Stop! Cookie time</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button class="cookie-button">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
