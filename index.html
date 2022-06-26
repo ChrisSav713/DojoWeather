@@ -22,20 +22,20 @@
         <div class="page-body">
             <div class="top-row">
                 <h2>San Jose</h2>
-                <div class="temp-container">
-                    <label for="temp">show temperature in </label>
+                <form id="temp-container">
+                    <label for="temp-select">show temperature in </label>
                     <select name="temp" id="temp-select">
                         <option value="far">°F</option>
                         <option selected value="cel">°C</option>
                     </select>
-                </div>
+                </form>
             </div>
             <div class="bottom-row">
                 <div class="weather-day">
                     <h3>Today</h3>
                     <img src="./assets/some_rain.png" alt="rain icon">
                     <p>some rain</p>
-                    <label class="temp-day"><span class="degree">24</span>°</lable>
+                    <label class="temp-day"><span class="degree">24</span>°</label>
                     <label class="temp-night"><span class="degree">18</span>°</label>
                 </div>
                 <div class="tomorrow">
@@ -43,7 +43,7 @@
                         <h3>Tomorrow</h3>
                         <img src="./assets/some_sun.png" alt="sun icon">
                         <p>some sun</p>
-                        <label class="temp-day"><span class="degree">27</span>°</lable>
+                        <label class="temp-day"><span class="degree">27</span>°</label>
                         <label class="temp-night"><span class="degree">19</span>°</label>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                         <h3>Friday</h3>
                         <img src="./assets/some_clouds.png" alt="cloud icon">
                         <p>some clouds</p>
-                        <label class="temp-day"><span class="degree">21</span>°</lable>
+                        <label class="temp-day"><span class="degree">21</span>°</label>
                         <label class="temp-night"><span class="degree">16</span>°</label>
                     </div>
                 </div>
@@ -61,19 +61,19 @@
                         <h3>Saturday</h3>
                         <img src="./assets/some_sun.png" alt="sun icon">
                         <p>some sun</p>
-                        <label class="temp-day"><span class="degree">26</span>°</lable>
+                        <label class="temp-day"><span class="degree">26</span>°</label>
                         <label class="temp-night"><span class="degree">21</span>°</label>
                     </div>
                 </div>
             </div>
-            <div class="cookie">
-                <img src="./assets/cookie.png" alt="cookie image">
-                <div class="cookie-text">
-                    <h4>Stop! Cookie time</h4>
-                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
-                </div>
-                <button class="cookie-button">I Accept</button>
+        </div>
+        <div class="cookie">
+            <img src="./assets/cookie.png" alt="cookie image">
+            <div class="cookie-text">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
             </div>
+            <button class="cookie-button">I Accept</button>
         </div>
     </div>
     <script src="script.js"></script>

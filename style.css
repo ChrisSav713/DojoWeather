@@ -50,11 +50,11 @@
     border-bottom: 3px solid black;
 }
 
-.temp-container {
+#temp-container {
     display: flex;
 }
 
-.temp-container select {
+#temp-container select {
     margin-left: 20px;
 }
 
@@ -101,10 +101,12 @@
 }
 
 .cookie {
+    background-color: lightgrey;
     width: 800px;
     height: 150px;
-    margin: 5px;
-    align-self: center;
+    position: fixed;
+    bottom: 0;
+    left: 20%;
     border: 3px solid black;
     display: flex;
     align-items: center;

@@ -9,7 +9,7 @@ document.querySelector(".cookie-button").addEventListener("click", acceptClick);
 document.querySelector("#temp-select").addEventListener("change", tempChange);
 
 function cityClick() {
-    alert("The city " + this.id + " was clicked.");
+    alert("Loading weather report for the city of " + this.id + "......");
 }
 
 function acceptClick() {
